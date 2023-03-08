@@ -37,7 +37,7 @@ public class Aplicacion extends HttpServlet {
                 writer.println("Apellido1: " + resultSet.getString("Apellido1"));
                 writer.println("Apellido2: " + resultSet.getString("Apellido2"));
                 writer.println("Direccion: " + resultSet.getString("Direccion"));
-                writer.println("Poblacion: " + resultSet.getString("Poblacion"));
+                //writer.println("Poblacion: " + resultSet.getString("Poblacion"));
                 writer.println("-------------------------------------------------");
             }
             stmt.close();
